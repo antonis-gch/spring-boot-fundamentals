@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springbootfundamentals
+stripe:
+  apiUrl: https://api.stripe.com
+  enabled: true
+  timeout: 1000
+  supported-currencies: USD,EUR,GBP

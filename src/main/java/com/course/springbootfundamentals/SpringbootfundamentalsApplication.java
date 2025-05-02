@@ -11,6 +11,8 @@ public class SpringbootfundamentalsApplication {
         ApplicationContext applicationContext = SpringApplication.run(SpringbootfundamentalsApplication.class, args);
         OrderService orderService = applicationContext.getBean(OrderService.class);
         orderService.placeOrder();
+//        NotificationManager notificationManager = applicationContext.getBean(NotificationManager.class);
+//        notificationManager.sendMessage("Text Body");
     }
 
 }
