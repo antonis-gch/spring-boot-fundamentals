@@ -6,3 +6,8 @@ stripe:
   enabled: true
   timeout: 1000
   supported-currencies: USD,EUR,GBP
+payments:
+  processor: paypal
+email:
+  host: gmail
+  port: 3000
